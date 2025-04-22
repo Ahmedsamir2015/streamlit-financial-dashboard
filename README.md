@@ -1,13 +1,8 @@
-# Streamlit Financial Dashboard - Ahmed 2015 DB
+# Streamlit Dashboard - Local with secrets
 
-## Database Info:
-- host: db4free.net
-- user: ahmedsamir2015
-- database: ahmed2015
-- password: stored in secrets.toml
+This version includes a .streamlit/secrets.toml file for local testing.
 
-## Run Locally:
+Run with:
 ```bash
-pip install -r requirements.txt
 streamlit run app.py
 ```
