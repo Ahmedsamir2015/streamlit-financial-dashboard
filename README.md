@@ -1,8 +1,11 @@
-# Streamlit Dashboard - Local with secrets
+# Streamlit Dashboard - Final Verified Version
 
-This version includes a .streamlit/secrets.toml file for local testing.
+Includes:
+- .streamlit/secrets.toml with correct DB_PASSWORD
+- app.py using st.secrets["DB_PASSWORD"]
 
-Run with:
+To run:
 ```bash
+pip install -r requirements.txt
 streamlit run app.py
 ```
