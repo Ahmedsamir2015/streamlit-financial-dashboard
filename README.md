@@ -1,13 +1,12 @@
-# Financial Dashboard with Streamlit
+# Streamlit Financial Dashboard - Ahmed 2015 DB
 
-A simple Streamlit dashboard that connects to a MySQL database and displays interactive charts.
+## Database Info:
+- host: db4free.net
+- user: ahmedsamir2015
+- database: ahmed2015
+- password: stored in secrets.toml
 
-## Features
-- Connects to MySQL
-- Visualizes customer invoice data
-- Shows trends and totals
-
-## To run locally
+## Run Locally:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py

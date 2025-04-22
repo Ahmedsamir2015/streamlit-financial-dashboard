@@ -6,9 +6,9 @@ from datetime import datetime
 
 def get_connection():
     return mysql.connector.connect(
-        host="db4.net",
+        host="db4free.net",
         user="ahmedsamir2015",
-        password=st.secrets["Ahmed@2015"],
+        password=st.secrets["DB_PASSWORD"],
         database="ahmed2015"
     )
 
@@ -19,7 +19,7 @@ def get_sales():
     conn.close()
     return df
 
-st.title("📊 لوحة تحليل الفواتير - Online")
+st.title("📊 لوحة تحليل الفواتير - Ahmed 2015 Database")
 
 try:
     df = get_sales()
