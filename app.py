@@ -6,10 +6,10 @@ from datetime import datetime
 
 def get_connection():
     return mysql.connector.connect(
-        host="your_host",  # استبدلها بـ host فعلي (مثل db4free.net أو سيرفرك)
-        user="your_user",
-        password="your_password",
-        database="your_database"
+        host="db4.net",
+        user="ahmedsamir2015",
+        password=st.secrets["DB_Ahmed2015"],
+        database="ahmed2015"
     )
 
 def get_sales():
