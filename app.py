@@ -8,7 +8,7 @@ def get_connection():
     return mysql.connector.connect(
         host="db4.net",
         user="ahmedsamir2015",
-        password=st.secrets["DB_Ahmed@2015"],
+        password=st.secrets["Ahmed@2015"],
         database="ahmed2015"
     )
 
